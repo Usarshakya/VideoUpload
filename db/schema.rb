@@ -10,15 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170305213728) do
+ActiveRecord::Schema.define(version: 20170305220701) do
 
   create_table "posts", force: :cascade do |t|
     t.text     "title"
     t.text     "description"
     t.string   "video"
-    t.datetime "created_at",                  null: false
-    t.datetime "updated_at",                  null: false
-    t.boolean  "sucess",      default: false, null: false
+    t.datetime "created_at",                       null: false
+    t.datetime "updated_at",                       null: false
+    t.boolean  "sucess",           default: false, null: false
+    t.boolean  "video_processing", default: false, null: false
   end
 
   create_table "users", force: :cascade do |t|
