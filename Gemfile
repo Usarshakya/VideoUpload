@@ -20,6 +20,7 @@ gem 'devise-bootstrap-views', '~> 0.0.10'
 
 #video upload gem
 gem 'carrierwave', '~> 0.11.2'
+gem 'carrierwave-video', '~> 0.5.6'
 
 
 
