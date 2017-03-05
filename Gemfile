@@ -15,6 +15,9 @@ gem 'dotenv-rails', '~> 2.2'
 gem 'twitter-bootstrap-rails', '~> 4.0'
 gem 'devise-bootstrap-views', '~> 0.0.10'
 
+#video upload gem
+gem 'carrierwave', '~> 0.11.2'
+
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
