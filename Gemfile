@@ -8,6 +8,9 @@ end
 #devise
 gem 'devise', '~> 4.2'
 
+#debugger
+gem 'pry-rails', '~> 0.3.5'
+
 #ignore
 gem 'dotenv-rails', '~> 2.2'
 

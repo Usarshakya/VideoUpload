@@ -22,6 +22,15 @@
     </div>
     <%=f.error_span(:title) %>
   </div>
+  
+  <div class="form-group">
+    <%= f.label :video, :class => 'control-label col-lg-2' %>
+    <div class="col-lg-10">
+      <%= f.file_field :video %>
+    </div>
+    <%=f.error_span(:video) %>
+  </div>
+
   <div class="form-group">
     <%= f.label :description, :class => 'control-label col-lg-2' %>
     <div class="col-lg-10">
@@ -29,13 +38,7 @@
     </div>
     <%=f.error_span(:description) %>
   </div>
-  <div class="form-group">
-    <%= f.label :video, :class => 'control-label col-lg-2' %>
-    <div class="col-lg-10">
-      <%= f.text_field :video, :class => 'form-control' %>
-    </div>
-    <%=f.error_span(:video) %>
-  </div>
+  
  
   <div class="form-group">
     <div class="col-lg-offset-2 col-lg-10">
