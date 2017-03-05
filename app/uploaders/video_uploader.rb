@@ -11,7 +11,7 @@ class VideoUploader < CarrierWave::Uploader::Base
   storage :file
   # storage :fog
 
-  process encode_video: [:mp4, audio_codec: 'aac', custom: '-crf 28 -b:v 512k -strict experimental -q:v 5']
+  process encode_video: [:mp4, audio_codec: 'aac', custom: '-crf 28 -b:v 512k -strict experimental -q:v 5', callbacks: { after_transcode: :set_success }]
   def full_filename(for_file)
       "#{File.basename(for_file, File.extname(for_file))}.mp4"
   end
