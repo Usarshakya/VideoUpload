@@ -24,6 +24,7 @@ gem 'streamio-ffmpeg', '=1.0.0'
 gem 'carrierwave-video', '~>0.5.6'
 gem 'carrierwave-video-thumbnailer', '~>0.1.4'
 gem 'carrierwave_backgrounder', '~> 0.4.2'
+gem 'delayed_job_active_record', '~> 4.1', '>= 4.1.1'
 
 
 
