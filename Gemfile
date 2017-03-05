@@ -13,7 +13,7 @@ gem 'dotenv-rails', '~> 2.2'
 
 #bootstrap
 gem 'twitter-bootstrap-rails', '~> 4.0'
-
+gem 'devise-bootstrap-views', '~> 0.0.10'
 
 
 
