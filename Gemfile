@@ -26,6 +26,13 @@ gem 'carrierwave-video-thumbnailer', '~>0.1.4'
 gem 'carrierwave_backgrounder', '~> 0.4.2'
 gem 'delayed_job_active_record', '~> 4.1', '>= 4.1.1'
 
+#testing
+gem 'capybara', '~> 2.12', '>= 2.12.1'
+gem 'factory_girl_rails'
+gem 'rails-controller-testing'
+group :development, :test do
+  gem 'rspec-rails', '~> 3.5'
+end
 
 
 
